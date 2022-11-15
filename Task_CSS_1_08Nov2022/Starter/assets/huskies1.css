@@ -1,0 +1,113 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerContainer {
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.headerWrapper,
+.huskiesSec1Wrapper {
+    max-width: 1700px;
+}
+
+.huskiesSec1Container {
+    background-color: bisque;
+}
+
+.huskiesSec1Wrapper  {
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+
+.huskiesSec1Container h2 {
+    text-align: center;
+    /* margin: 40px; */
+
+}
+
+.huskiesSec1Wrapper h2 {
+    margin: 40px 0;
+}
+
+.huskiesh2 {
+    padding: 40px 0;
+}
+
+.huskiesSec1Wrapper article {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    margin: 0 50px;
+    box-shadow: -2px -2px 17px -1px gray ;
+    padding: 20px;
+
+}
+
+.siberianhusky h3 {
+    margin:  0 0 10px 0;
+}
+
+.siberianhusky,
+.alaskanmalamute h3 {
+    margin: 0 0 10px 0;
+}
+
+.siberianhusky p {
+    margin: 0 0 10px 0;
+}
+
+.siberianhusky a {
+    border: 2px solid blue;
+}
+
+.alaskanmalamute a {
+    border: 2px solid blue;
+}
+
+.siberianhusky .knowmore {
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+
+.alaskanmalamute .knowmore {
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+
+.siberianhusky .knowmore:hover {
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.alaskanmalamute .knowmore:hover {
+    border: 2px solid white;
+    background-color: blue;
+    color: white;   
+}
+
+.siberianhusky .download:hover {
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.alaskanmalamute .download:hover {
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+}
