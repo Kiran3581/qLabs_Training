@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MuseoModerno', rounded,cursive;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sec1Container {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.Download {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(50, 190, 50);
+    border-radius: 30px;
+    padding: 8px 40px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.linkInfo {
+    margin: 20px;
+    color: #2e72b6;
+    text-decoration: none;
+}
+
+.Pageslink p {
+    margin: 20px;
+    color: grey;
+}
+
+.sec1Container h2 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.sec1Wrapper {
+    max-width: 1200px;
+    
+}
+
+.sec1Art1 h3 {
+    font-size: 60px;
+    font-weight: 200;
+    color: rgb(96, 182, 84);
+    margin-bottom: 20px;
+}
+
+.sec1Art1 p {
+    color: #556575;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
