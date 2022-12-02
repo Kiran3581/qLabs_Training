@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Starter/assets/css/studentform.css">
+    <h2>Student Form</h2>
+</head>
+<body>
+    <form action="">
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" placeholder="First Name" ><br>
+        <label for="secondName">First Name</label><br>
+        <input type="text" id="secondName" placeholder="Second Name" ><br>
+        <input type="radio" id="10th" name="education" onclick='radio1()'><label for="10th">10th</label>
+        <input type="radio" id="puc" name="education" onclick='radio2()'><label for="puc">PUC/Diploma</label>
+        <input type="radio" id="be" name="education" onclick='radio3()'><label for="be">BE/BTech</label><br>
+        <input type="number" disabled="true" id="cgpa"><label>% or cgpa</label><br>
+        <label for="email">Email Id</label><br>
+        <input type="email" id="email" name="email" ><br>
+
+
+
+
+<h3>Hobbies</h3><br>
+<table>
+    <tr>
+        <td><input type="checkbox" id="h1" checked>Reading</td>
+        <td><input type="checkbox" id="h2">Cricket</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="h3">Painting</td>
+        <td><input type="checkbox" id="h4">Horse Riding</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="h5">Chess</td>
+        <td><input type="checkbox" id="h6">Video Games</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="h7">Bike Riding</td>
+        <td><input type="checkbox" id="h8">Travelling</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="h9">Watching Movies</td>
+        <td><input type="checkbox" id="h10">Drawing</td>
+    </tr>
+</table>
+
+  <p id="demo"></p><br>
+
+  <input type="submit" value="Submit" onclick="check()">
+
+
+
+
+
+
+
+
+          
+
+
+
+    </form>
+    
+</body>
+<script src="/Starter/js/studentform.js"></script>
+</html>
